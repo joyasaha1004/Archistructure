@@ -77,7 +77,7 @@ const Navbar = () => {
  
 </div>
                    <ul className="gap-7 opacity-0 lg:opacity-100 flex  dark:text-white font-semibold cursor-pointer xl:text-xl">
-                       <li className="hover:text-sky-500"><Link to="/">Home</Link></li>
+                       <li className="hover:text-sky-500"><Link to="/Archistructure">Home</Link></li>
              <li className ="hover:text-sky-500"><Link to="/about">About</Link></li>
               <li className ="hover:text-sky-500 "><Link to="/newproject">New Project</Link></li>
                   <li className ="hover:text-sky-500"><Link to="/works">Works</Link></li>
