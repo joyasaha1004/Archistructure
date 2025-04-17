@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+      .info{
+        @apply text-center pb-6
+      }
+    .info p{
+        @apply text-orange-300 text-2xl  lg:text-3xl lg:mb-1
+    }
+    .info span{
+        @apply text-base md:text-sm lg:text-lg xl:text-xl 
+    }
+}

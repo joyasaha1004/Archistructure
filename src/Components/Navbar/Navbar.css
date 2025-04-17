@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+
+    .nav-list li{
+     @apply text-lg mb-6 font-semibold hover:text-sky-500
+    }
+    .list{
+        @apply hover:text-sky-500 self-center
+    }
+}

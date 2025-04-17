@@ -6,8 +6,8 @@ import build from "../Assets/build4.jpg";
 
 const Architecture = () => {
     return (
-        <div className="">
-          <div className=" w-[300px] pb-12 sm:w-[500px] md:w-[700px] lg:w-[1000px] xl:w-[1500px] xxl:w-[1800px]
+        <div className="overflow-x-hidden max-w-screen-xl mx-auto">
+          <div className=" 
          dark:bg-gray-800">
               <div>
                    <img src={build5} className="h-[200px] w-[300px] sm:w-[500px] sm:h-[250px] md:w-[700px] md:h-[300px] lg:w-[1000px] xl:w-[1500px] xxl:w-[1800px] lg:h-[400px] xl:h-[550px] xxl:h-[620px] xxl:w-[1800px]"></img>

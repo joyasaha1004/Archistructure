@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+    .footer li{
+        @apply  hover:underline hover:underline-offset-4 hover:transition-all hover:delay-700 hover:duration-700 
+    }
+}

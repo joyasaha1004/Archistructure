@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+.circle{
+    @apply bg-white rounded-full w-[7px] h-[7px]
+    sm:w-[8px] sm:h-[8px]  md:w-[10px] md:h-[10px]  lg:w-[12px] lg:h-[12px] xl:w-[15px] xl:h-[15px]  
+}
+.center-text{
+    @apply tracking-wide text-xl font-semibold sm:text-2xl md:text-3xl lg:text-4xl
+}
+}

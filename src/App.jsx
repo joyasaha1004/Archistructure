@@ -30,13 +30,13 @@ function App() {
     <>
   <Navbar/>
   
-  <Routes>
+   <Routes>
   <Route path="/Archistructure" element={<Home/>}/>
-  <Route path="/" element={<Home/>}/>
-    <Route path="/about" element={<About/>}/>
-    <Route path="/newproject" element={<NewProject/>}/>
+ <Route path="/" element={<Home/>}/>
+     <Route path="/about" element={<About/>}/>
+    {/*<Route path="/newproject" element={<NewProject/>}/>
     <Route path="/works" element={<Works/>}/>
-    <Route path="/contact" element={<ContactUs/>}/>
+    <Route path="/contact" element={<ContactUs/>}/> */}
   </Routes>
   <Footer/>
     </>

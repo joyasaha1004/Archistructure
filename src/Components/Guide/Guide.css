@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+   .project span{
+    @apply absolute inset-0 flex items-center tracking-widest justify-center text-white text-xl font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300 
+   }
+   .project img{
+    @apply w-full h-80  hover:brightness-50 mb-4
+   }
+}
