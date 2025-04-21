@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+        .small-pro img{
+            @apply  h-28 sm:h-32 w-full mb-1 md:h-40 lg:h-52 lg:mb-2
+        }
+        .small-pro span{
+            @apply text-xs sm:text-sm text-gray-600 lg:text-lg 
+        }
+        .small-pro p{
+            @apply text-xs sm:text-sm lg:text-lg   xl:mt-1 dark:text-white
+        }
+        .big-pro img{
+            @apply h-52 w-full mb-1 sm:h-60 lg:h-72 lg:mb-2
+        }
+        .big-pro span{
+            @apply text-xs sm:text-sm text-gray-600 lg:text-lg 
+        }
+        .big-pro p{
+            @apply text-xs sm:text-sm lg:text-lg dark:text-white
+        }
+}

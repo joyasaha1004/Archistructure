@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+      .method{
+        @apply lg:grid grid-cols-2 lg:gap-3
+      }
+      .method img{
+        @apply w-full mb-4 lg:h-64
+      }
+   .method span{
+    @apply text-lg font-semibold text-orange-300 md:text-xl lg:text-2xl mb-2 
+   }
+   .method p{
+    @apply text-xs leading-relaxed lg:text-base lg:leading-loose lg:mt-3 
+   }
+}
