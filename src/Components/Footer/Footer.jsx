@@ -9,7 +9,7 @@ const Footer = () => {
             <div className=" bg-black  ">
                 <div className="px-2 py-4 sm:px-4">
                     <h3 className="text-lg tracking-wide text-white font-semibold lg:text-2xl md:mb-5 ">Skidmore,Owings&Merrill</h3>
-                    <ul className="mt-2 gap-3 footer text-sm font-semibold text-gray-600 sm:text-sm md:flex flex-wrap md:gap-7 lg:text-base lg:mt-5 xl:text-xl">
+                    <ul className="mt-2 gap-3 footer text-sm font-semibold text-gray-600 sm:text-sm md:flex flex-wrap md:gap-7 lg:text-base lg:mt-5">
                         <li className=""><a href="#" >Carrers</a></li>
                         <li className=""><a href="">Press</a></li>
                         <li className=""><a href="">Human Rights Policy</a></li>
