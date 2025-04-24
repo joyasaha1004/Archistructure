@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+       .plus-point {
+        @apply bg-gray-100 text-center drop-shadow-xl py-3 px-4
+       }
+       .plus-point img{
+              @apply w-6 h-6 justify-self-center mb-1
+       }
+       .plus-point p{
+              @apply text-xs font-semibold shrink-0 lg:text-base 
+       }
+}

@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+  input,textarea{
+    @apply border-2  w-full border-orange-300 text-xs rounded-md tracking-wide lg:tracking-wider xl:font-semibold 
+  }
+}
