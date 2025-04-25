@@ -4,7 +4,7 @@ import contact from "../Assets/contact.png"
 import contact2 from"../Assets/contact2.jpg";
 const Contact = () => {
     return (
-        <div className="pb-16 oveflow-hidden mx-auto max-w-screen-xl dark:bg-gray-800">
+        <div className="pb-16 overflow-hidden mx-auto max-w-screen-xl dark:bg-gray-800">
           <div>
                  <div className="bg-new-project bg-cover  bg-center h-fit w-full relative mb-7"
                                                 style={{ backgroundImage: `url(${contact})` }}
