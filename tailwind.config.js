@@ -17,13 +17,7 @@ export default {
       
           'hero-pattern': "url('../Assets/build5.jpg')",
           'new-project' : "url('../Assets/build.jpg')",
-        // 'restaurant-pic' : "url('../Assets/restaurant_bg.png')",
-        // 'footer-pic' : "url('../Assets/footer.png')",
-        // 'offer-pic' : "url('../Assets/offer_bg.png')",
-        //  'menu' : "url('../Assets/menu_bg.png')",
-        // 'reservation-bg': "url('../Assets/reservation1.png')",
-        // 'wood-bg': "url('../Assets/wood_bg.png')",
-        // 'contact-bg':"url('../Assets/contact_bg.png')",
+       
        
       }
     },
