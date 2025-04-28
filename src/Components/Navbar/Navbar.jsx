@@ -49,7 +49,7 @@ const Navbar = () => {
         ${scrolled ? 'bg-white text-black shadow-md dark:bg-gray-900 dark:text-white' : 'bg-transparent text-white'}`}>
      
 
-        <header className="items-center py-1.5 overflow-x-hidden max-w-screen-xl mx-auto">
+        <header className="items-center py-1.5 px-1 lg:px-2 overflow-x-hidden max-w-screen-xl mx-auto">
 
             <div className='flex justify-between '>
   <div className="flex items-center text-base -space-x-1.5 sm:text-lg ">
