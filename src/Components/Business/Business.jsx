@@ -4,7 +4,7 @@ import sofa from "../Assets/sofa.jpg";
 
 const Business = () => {
     return (
-        <div className="dark:bg-gray-800 overflow-x-hidden max-w-screen-xl mx-auto pt-16 pb-20 ">
+        <div className="dark:bg-gray-800 overflow-x-hidden max-w-screen-xl mx-auto pt-10 pb-20 ">
 
              <span className="text-orange-300 font-semibold  lg:text-xl px-3 lg:px-5 lg:tracking-widest">WELCOME</span>
             <div className="grid px-3 pb-6 lg:flex sm:pb-8 md:pb-10 lg:gap-9 lg:px-5">

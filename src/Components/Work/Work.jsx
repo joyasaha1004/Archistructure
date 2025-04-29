@@ -16,7 +16,7 @@ const Work = () => {
                                 style={{ backgroundImage: `url(${work1})` }}
                                >
                     <div className="absolute inset-0 bg-black opacity-50 "></div>            
-                    {/* <img src={work1} className="brightness-75 h-[200px] w-[300px] sm:h-[250px] sm:w-[500px] md:w-[700px] lg:w-[1000px] lg:h-[400px] md:h-[300px] xl:w-[1500px] xl:h-[550px] xxl:w-[1800px] xxl:h-[620px]"></img> */}
+                   
                     <div className="text-center relative pt-40 pb-44 font-semibold text-white"
                     data-aos="zoom-out"
                     >
@@ -61,11 +61,7 @@ const Work = () => {
                    <div className="mt-5 ">
                        <img src={work3} className="md:h-full"
                        data-aos="zoom-in"></img>
-                       {/* <div className="w-52 h-10 bg-white ml-24 -mt-10 overflow-visible absolute sm:w-40 sm:pt-1 sm:h-9 sm:-mt-9 md:w-52 sm:-mt-10  md:ml-44 md:-mt-[40px] md:h-10 lg:w-[245px] lg:ml-64 xl:w-[279px] xl:-mt-[50px]  xl:ml-80 xl:h-12 xl:-mt-12"
-                      data-aos="fade-left"
-                       >
-                           <button className="bg-gray-300 text-xs py-1 px-4 ml-5 mt-2 hover:bg-gray-600 hover:text-white xl:text-base ">View Card</button>
-                       </div> */}
+                     
                        
                    </div>
                    <div className="dark:text-white mt-3 md:pt-2 ">

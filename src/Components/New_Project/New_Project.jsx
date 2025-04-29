@@ -28,9 +28,9 @@ const New_Project = () => {
                  style={{ backgroundImage: `url(${project_bg})` }}
                 >
              <div className="absolute inset-0 bg-black opacity-50 "></div>
-                    {/* <img src={build6} className="brightness-75 sm:h-[250px] sm:w-[500px] md:w-[700px] lg:w-[1000px] lg:h-[400px] md:h-[300px] xl:w-[1500px] xl:h-[550px] xxl:w-[1800px] xxl:h-[620px]"></img> */}
+                   
                     <div className="text-center relative pt-40 pb-44 font-semibold text-white"
-                    // data-aos="zoom-out"
+                  data-aos="zoom-out"
                     >
                     <span className="text-xl font-semibold tracking-wide sm:text-2xl  md:text-3xl  lg:tracking-wider lg:text-4xl ">New Project's</span>
                     <p className="text-xs text-orange-300 tracking-wide md:tracking-wider mt-2 lg:text-base lg:mt-2">We Want To Part Of Your Dream</p>

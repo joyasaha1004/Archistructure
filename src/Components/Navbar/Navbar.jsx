@@ -1,6 +1,8 @@
 import React, { useRef } from 'react';
 import logo from "../Assets/logo2.png";
-import { FiMenu, FiX } from "react-icons/fi";
+
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+
 import "./Navbar.css";
 import {useState, useEffect} from "react";
 import { Link } from 'react-router-dom';
@@ -41,7 +43,10 @@ const Navbar = () => {
         setTheme(theme === "dark" ? "light":"dark");
     }
 
-    const [menuOpen, setMenuOpen] = useState(false);
+   
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggleMenu = () => setIsOpen(!isOpen);
     return (
 
        <div 
@@ -49,9 +54,9 @@ const Navbar = () => {
         ${scrolled ? 'bg-white text-black shadow-md dark:bg-gray-900 dark:text-white' : 'bg-transparent text-white'}`}>
      
 
-        <header className="items-center py-1.5 px-1 lg:px-2 overflow-x-hidden max-w-screen-xl mx-auto">
+        <header className="items-center py-1.5 px-2 lg:px-2 overflow-x-hidden max-w-screen-xl mx-auto">
 
-            <div className='flex justify-between '>
+            <div className='flex justify-between z-50'>
   <div className="flex items-center text-base -space-x-1.5 sm:text-lg ">
     <img src={logo} alt="Builders Logo" className="w-8 h-auto lg:w-10"/>
     <span className="font-bold text-blue-600">Builders</span>
@@ -69,24 +74,29 @@ const Navbar = () => {
                                 </div>
   <div className="flex items-center space-x-3">
  
-    <button onClick={() => setMenuOpen(!menuOpen)} className="text-xl lg:hidden">
-          {menuOpen ? <FiX /> : <FiMenu />}
+    
+         <button onClick={toggleMenu} className="lg:hidden text-black  dark:text-white z-50">
+         {isOpen ? (
+    <XMarkIcon className="h-6 w-6" />
+  ) : (
+    <Bars3Icon className="h-6 w-6" />
+  )}
         </button>
-    <button onClick={handleThemeSwitch}>🌙</button>
+    <button onClick={handleThemeSwitch} className='z-50'>🌙</button>
   </div>
 </div>
  
 
 </header>
 
-     {menuOpen && (
-      <div className=" relative h-screen pt-16 ">
-                            <div className="">
+     {isOpen && (
+      <div className="absolute top-0 right-0 w-full h-screen text-black bg-white dark:bg-gray-900 dark:text-white pt-20 space-y-8 transform ${isOpen ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-300 ease-in-out`}">
+                      
                        
      
       
-        </div> 
-                       <ul className="justify-items-center nav-list dark:text-white"
+       
+                       <ul className="justify-items-center nav-list "
                          data-aos="fade-left"
                         >
                           <li className=""><Link to="/">Home</Link></li>  
