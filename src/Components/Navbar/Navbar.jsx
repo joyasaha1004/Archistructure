@@ -57,7 +57,7 @@ const Navbar = () => {
         <header className="items-center py-1.5 px-2 lg:px-2 overflow-x-hidden max-w-screen-xl mx-auto">
 
             <div className='flex justify-between z-50'>
-  <div className="flex items-center text-base -space-x-1.5 sm:text-lg ">
+  <div className="flex items-center z-50 text-base -space-x-1.5 sm:text-lg ">
     <img src={logo} alt="Builders Logo" className="w-8 h-auto lg:w-10"/>
     <span className="font-bold text-blue-600">Builders</span>
   </div>
@@ -90,7 +90,7 @@ const Navbar = () => {
 </header>
 
      {isOpen && (
-      <div className="absolute top-0 right-0 w-full h-screen text-black bg-white dark:bg-gray-900 dark:text-white pt-20 space-y-8 transform ${isOpen ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-300 ease-in-out`}">
+      <div className="absolute top-0 right-0 w-full h-fit pb-10 text-black bg-white dark:bg-gray-900 dark:text-white pt-24 space-y-8 transform ${isOpen ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-300 ease-in-out`}">
                       
                        
      
