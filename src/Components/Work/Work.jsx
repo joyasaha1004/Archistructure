@@ -33,7 +33,7 @@ const Work = () => {
                   
                    <div className="relative  text-white self-center">
                         
-                   <div className="flex gap-1 absolute flex items-center justify-center ">
+                   <div className=" gap-1 absolute flex items-center justify-center ">
                    <span className="font-serif font-semibold sm:text-xl shrink-0 lg:text-2xl ">Our DNA</span>
                    <hr className="w-16 self-center"></hr>
                    </div>
@@ -75,19 +75,19 @@ const Work = () => {
 
                <div className="mt-16 pb-10 ">
                    <div className="bg-gray-900 pt-6 pb-8 sm:mx-2 sm:rounded lg:mx-6 lg:pb-12">
-                       <div className="text-white flex justify-self-center pb-4 overflow-visible relative gap-2 font-serif">
-                           <hr className="w-16 self-center"></hr>
+                       <div className="text-white flex justify-center items-center pb-4 overflow-visible relative gap-2 font-serif">
+                           <hr className="w-16 flex justify-center"></hr>
                             <span className="text-xl tracking-wide lg:text-2xl">Why Us</span>
                             
                        </div>
                       
-                       <div className="  md:grid grid-cols-2">
-                       <div className="bg-gray-100 rounded pb-8 justify-self-center mb-4 w-40 sm:w-48 lg:w-60 ">
+                       <div className=" sm:align-center w-full md:grid grid-cols-2">
+                       <div className="bg-gray-100 rounded pb-8 self-center items-center mb-4 w-fit mx-10 sm:mx-12 lg:w-64 ">
                            <div className="flex flex-wrap  mt-2 px-2">
                            <img src={man} className="w-8 h-8 rounded-full m-2  lg:w-10 lg:h-10 xl:w-12 xl:h-12"></img>
                            <span className="text-gray-400 text-xs font-semibold self-center lg:text-sm  tracking-wide ">Mannager</span>
                            </div>
-                           <p className="text-xs  mx-2 lg:text-base  leading-normal">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, dolorem."</p>
+                           <p className="text-xs  mx-3 lg:text-base  leading-normal">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, dolorem."</p>
                        </div>
 
            <div className="px-2 sm:pt-4 sm:px-4">

@@ -9,6 +9,6 @@
      @apply text-lg mb-6 font-semibold hover:text-sky-500
     }
     .list li{
-        @apply hover:text-sky-500 self-center
+        @apply hover:text-sky-500 
     }
 }

@@ -14,7 +14,7 @@ const Architecture = () => {
      <div className='bg-hero-pattern bg-cover bg-center relative h-fit mb-10'
       style={{ backgroundImage: `url(${build5})` }}
      >
-      <div className='justify-self-center center-text items-center pt-40 pb-44 gap-2 flex text-white'>
+      <div className='justify-center center-text items-center pt-40 pb-44 gap-2 flex text-white'>
       <div className="circle"></div>
                    <span className="">Planning</span>
                    <div className="circle"></div>

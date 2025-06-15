@@ -54,16 +54,18 @@ const Navbar = () => {
         ${scrolled ? 'bg-white text-black shadow-md dark:bg-gray-900 dark:text-white' : 'bg-transparent text-white'}`}>
      
 
-        <header className="items-center py-1.5 px-2 lg:px-2 overflow-x-hidden max-w-screen-xl mx-auto">
+        <header className=" py-1.5 px-2 lg:px-2 overflow-x-hidden max-w-screen-xl mx-auto">
 
-            <div className='flex justify-between z-50'>
+            <div className='flex justify-between items-center z-50'>
   <div className="flex items-center z-50 text-base -space-x-1.5 sm:text-lg ">
     <img src={logo} alt="Builders Logo" className="w-8 h-auto lg:w-10"/>
     <span className="font-bold text-blue-600">Builders</span>
   </div>
- <div className="lg:content-center">
+
+  <div className='hidden lg:block'>
+ <div className="">
                   
-                                   <ul className="lg:gap-9 hidden lg:block lg:flex relative  list dark:text-white lg:text-sm font-semibold ">
+                                   <ul className="lg:gap-9 relative list lg:flex dark:text-white lg:text-sm font-semibold ">
                                        <li className=""><Link to="/Archistructure">Home</Link></li>
                               <li className =""><Link to="/about">About</Link></li>
                                <li className =""><Link to="/newproject">New Project</Link></li>
@@ -71,7 +73,7 @@ const Navbar = () => {
                                    <li className =""><Link to="/contact">Contact us</Link></li>
                                        
                                   </ul>
-                                </div>
+                                </div></div>
   <div className="flex items-center space-x-3">
  
     
@@ -96,7 +98,7 @@ const Navbar = () => {
      
       
        
-                       <ul className="justify-items-center nav-list "
+                       <ul className="justify-center text-center nav-list "
                          data-aos="fade-left"
                         >
                           <li className=""><Link to="/">Home</Link></li>  
