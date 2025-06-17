@@ -97,7 +97,7 @@ const Work = () => {
                       </div></div>
                   
                </div>
-                       <div className="flex flex-wrap pt-2 lg:relative lg:justify-end lg:-mt-24 lg:px-10 lg:gap-10 justify-center gap-4 sm:gap-8 md:gap-16">
+                       <div className="flex flex-wrap pt-2 lg:relative lg:justify-end px-2 lg:-mt-24 lg:px-10 lg:gap-10 justify-center gap-4 sm:gap-8 md:gap-16">
                            <div className="plus-point align-center">
                             <div className='plus-point-img'>
                                <img src={leaf} className=""></img>
